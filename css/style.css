@@ -1,0 +1,806 @@
+/* general */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  margin: auto;
+  width: 90%;
+}
+
+.clr {
+  clear: both;
+}
+
+/* <home> */
+.home {
+  background-image: url(../images/header.jpeg);
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  overflow: auto;
+  position: relative;
+}
+
+.home-info {
+  text-align: center;
+  color: white;
+  margin: 50px;
+}
+
+.home-info h1 {
+  margin: 0 0 5px;
+  color: #ff305b;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 70px;
+}
+
+.home-info h1,
+h2,
+h4 {
+  font-family: "Source Sans 3", sans-serif;
+  position: relative;
+}
+
+.home-info h4 {
+  font-size: 26px;
+  font-weight: 300;
+  color: white;
+}
+
+.home .home-info h2 {
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.logo a {
+  float: left;
+  color: #ff305b;
+  font-size: 24px;
+  font-weight: 550;
+  padding: 18px 0;
+  margin-left: 10%;
+  font-family: "Roboto", sans-serif;
+}
+
+.nav-links {
+  float: right;
+}
+
+.nav-links ul li {
+  list-style-type: none;
+  float: left;
+  padding: 10px 8px;
+  margin-top: 12px;
+}
+
+.nav-links ul li a {
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  letter-spacing: 0.5;
+  margin-left: 10%;
+}
+
+.nav-links ul li .a1 {
+  color: #ff305b;
+}
+
+a {
+  text-decoration: none;
+}
+
+.nav ul {
+  float: left;
+}
+
+.home .overlay {
+  content: "";
+  background-color: rgba(0, 0, 0, 0.8);
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.nav {
+  position: relative;
+}
+/* </home> */
+
+/* <About> */
+.about {
+  width: 100%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+.about-img {
+  width: 35%;
+  float: left;
+}
+
+.about-img img {
+  width: 100%;
+  margin-top: 60;
+  border-radius: 1.5%;
+}
+
+.about .content {
+  width: 50%;
+  float: left;
+  margin-left: 50;
+  font-size: 20;
+}
+
+.info {
+  float: left;
+  line-height: 2.5;
+}
+
+.info ul li a {
+  color: #555555;
+}
+
+.about .content h2 {
+  font-family: "Source Sans 3";
+  font-size: 34px;
+  font-weight: 600;
+  padding: 15;
+  position: relative;
+  text-transform: uppercase;
+}
+
+.about .content h2::after {
+  background-color: #ff305b;
+  content: "";
+  width: 4;
+  height: 35%;
+  top: 0;
+  left: 0;
+  position: absolute;
+  margin-top: 26;
+}
+
+.about .content p,
+.info ul {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #555555;
+}
+
+.about .content p {
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+  line-height: 25px;
+  color: #555;
+  margin-bottom: 15px;
+  padding-bottom: 15px;
+  border-bottom: 1px dashed #999999;
+}
+
+span {
+  font-family: "Roboto";
+  color: RGB(51, 51, 51);
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.info button {
+  background-color: #ff305b;
+  color: white;
+  border-radius: 4px;
+  display: inline-block;
+  margin-right: 15px;
+  margin-top: 10;
+  padding: 12px 35px;
+  font-size: 16;
+  border: none;
+  font-weight: 400;
+  transition: background-color 0.5s;
+}
+
+.info button:hover {
+  background-color: #ec2403;
+}
+
+.info button a {
+  color: white;
+}
+
+.info button a i {
+  color: white;
+  display: inline-block;
+  font-size: 20px;
+}
+
+/* </about> */
+
+/* <our services> */
+.our-services {
+  background-color: #f1f1f1;
+  margin: 50px 0px;
+}
+
+.our-services .title h2 {
+  text-align: center;
+  font-family: "Source Sans 3", sans-serif;
+  font-size: 40px;
+  font-weight: 800;
+  padding: 50px 0 10px;
+  color: #333333;
+  position: relative;
+}
+
+.our-services .title h2::after {
+  content: "";
+  border-color: #ff305b;
+  border-style: solid;
+  border-width: 1px 0;
+  bottom: 0;
+  padding: 4px 0 5px;
+  width: 70px;
+  left: 0;
+  margin: 0 auto;
+  position: absolute;
+  right: 0;
+}
+
+.our-services .title h2::before {
+  content: "";
+  background-color: #ff305b;
+  bottom: 5px;
+  height: 1px;
+  width: 160px;
+  left: 0;
+  margin: 0 auto;
+  position: absolute;
+  right: 0;
+}
+
+.services .serv1,
+.serv2,
+.serv3,
+.serv4 {
+  float: left;
+  width: 25%;
+  text-align: center;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.services .serv2 i,
+.serv1 i,
+.serv3 i,
+.serv4 i {
+  color: #ff305b;
+  display: block;
+  font-size: 25px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  transition: transform 0.5s;
+}
+
+.services h3 {
+  color: #333333;
+  font-family: "Source Sans 3", sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.services p {
+  color: #333333;
+  font-family: "Roboto";
+  padding: 10px;
+  line-height: 25px;
+}
+
+.services .serv1,
+.serv2,
+.serv3,
+.serv4 {
+  transition: background-color 0.5s;
+}
+
+.services .serv1:hover {
+  background-color: white;
+  border-radius: 5px;
+}
+.services .serv2:hover {
+  background-color: white;
+  border-radius: 5px;
+}
+.services .serv3:hover {
+  background-color: white;
+  border-radius: 5px;
+}
+.services .serv4:hover {
+  background-color: white;
+  border-radius: 5px;
+}
+
+.serv1:hover i {
+  transform: scale(1.3);
+}
+.serv2:hover i {
+  transform: scale(1.3);
+}
+.serv3:hover i {
+  transform: scale(1.3);
+}
+.serv4:hover i {
+  transform: scale(1.3);
+}
+
+/* </our services> */
+
+/* <our portfolio> */
+.our-portfolio {
+  margin: 50px 0px;
+}
+
+.links {
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.links .word-all {
+  color: #ff305b;
+}
+
+.links a {
+  border: none;
+  color: #333;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 25px;
+  font-family: "Roboto", sans-serif;
+  padding: 15px;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+.our-portfolio .title h2 {
+  text-align: center;
+  font-family: "Source Sans 3", sans-serif;
+  font-size: 40px;
+  font-weight: 800;
+  padding: 50px 0 10px;
+  color: #333333;
+  position: relative;
+}
+
+.our-portfolio .title h2::after {
+  content: "";
+  border-color: #ff305b;
+  border-style: solid;
+  border-width: 1px 0;
+  bottom: 0;
+  padding: 4px 0 5px;
+  width: 70px;
+  left: 0;
+  margin: 0 auto;
+  position: absolute;
+  right: 0;
+}
+
+.our-portfolio .title h2::before {
+  content: "";
+  background-color: #ff305b;
+  bottom: 5px;
+  height: 1px;
+  width: 160px;
+  left: 0;
+  margin: 0 auto;
+  position: absolute;
+  right: 0;
+}
+
+.images .img1 {
+  float: left;
+  width: 32%;
+  padding: 10px;
+  position: relative;
+}
+
+.img1 img {
+  width: 100%;
+  display: block;
+}
+
+.inner {
+  position: relative;
+}
+
+.our-portfolio .overlay {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  transition: background-color 0.5s;
+}
+
+.our-portfolio .overlay:hover {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+/* </our portfolio> */
+
+/* <statistics> */
+.statistics {
+  margin: 50 0;
+  background-color: #f1f1f1;
+}
+
+.items .item1,
+.item2,
+.item3,
+.item4 {
+  float: left;
+  width: 25%;
+  text-align: center;
+  margin-top: 7%;
+  margin-bottom: 7%;
+}
+
+.items h3,
+h5 {
+  font-family: "Source Sans 3", sans-serif;
+}
+
+.items h3 {
+  font-size: 26px;
+  font-weight: 800;
+  color: #333333;
+}
+
+.items h5 {
+  font-size: 16px;
+  font-weight: 600;
+  color: #555555;
+}
+
+.items .item1 i,
+.item2 i,
+.item3 i,
+.item4 i {
+  color: #ff305b;
+  display: block;
+  font-size: 25px;
+  margin-bottom: 15px;
+}
+/* </statistics> */
+
+/* <feedback> */
+.feedback {
+  margin: 50px auto;
+}
+
+.feedback .title h2 {
+  text-align: center;
+  font-family: "Source Sans 3", sans-serif;
+  font-size: 40px;
+  font-weight: 800;
+  padding: 50px 0 10px;
+  color: #333333;
+  position: relative;
+}
+
+.feedback .title h2::after {
+  content: "";
+  border-color: #ff305b;
+  border-style: solid;
+  border-width: 1px 0;
+  bottom: 0;
+  padding: 4px 0 5px;
+  width: 70px;
+  left: 0;
+  margin: 0 auto;
+  position: absolute;
+  right: 0;
+}
+
+.feedback .title h2::before {
+  content: "";
+  background-color: #ff305b;
+  bottom: 5px;
+  height: 1px;
+  width: 160px;
+  left: 0;
+  margin: 0 auto;
+  position: absolute;
+  right: 0;
+}
+
+.feedback .img {
+  width: 30%;
+}
+
+.feedback .img img {
+  width: 55%;
+  border-radius: 50%;
+  position: relative;
+  float: left;
+  margin: 8% auto;
+}
+
+.box {
+  padding: 30px;
+  width: 70%;
+  margin: 30 auto;
+  background-color: #f1f1f1;
+  border-radius: 6px;
+  position: relative;
+}
+
+.feedback .container {
+  width: 80%;
+}
+
+.box:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 0;
+  border-left: 170px solid #f53b57;
+  border-bottom: 170px solid transparent;
+  border-top-left-radius: 10px;
+}
+
+.feedback .box .content h3,
+h4,
+p {
+  position: relative;
+  color: #333333;
+}
+
+.feedback .box .content h3,
+h4 {
+  font-family: "Source sans 3";
+}
+
+.feedback .box .content h3 {
+  font-size: 26px;
+  font-weight: 600;
+}
+
+.feedback .box .content h4 {
+  display: inline-block;
+  color: #77778b;
+  font-size: 18px;
+  font-weight: 600;
+}
+.feedback .box .content i {
+  position: relative;
+  color: #77778b;
+}
+
+.feedback .box .content .stars i {
+  color: #f1c30d;
+  padding: 10px 0;
+}
+
+.feedback .box .content p {
+  color: #555555;
+  font-family: "Roboto";
+}
+/* </feedback> */
+
+/* <blog> */
+.blog {
+  background-color: #f1f1f1;
+  margin: 50px 0px;
+  padding: 50px 0px;
+}
+
+.blog .imgs .img1 {
+  float: left;
+  width: 33.33333%;
+  padding: 20px;
+  position: relative;
+}
+
+.blog img,
+iframe {
+  width: 100%;
+  display: block;
+}
+
+.inner {
+  background-color: white;
+  position: relative;
+}
+
+.blog .imgs .img1 p,
+span {
+  font-family: "Roboto", sans-serif;
+  padding: 7px;
+  line-height: 22px;
+}
+
+.blog .imgs .img1 span:hover {
+  color: #ff305b;
+}
+
+.blog .imgs .img1 h3:hover {
+  color: #ff305b;
+}
+
+.blog .imgs .img1 span {
+  font-size: 14;
+  font-weight: 400;
+}
+
+.blog .imgs .img1 span,
+h3 {
+  transition: color 0.5s;
+}
+
+.blog .imgs .img1 h3 {
+  font-family: "Source sans 3", sans-serif;
+  font-size: 20px;
+  padding: 7px;
+  color: #463d33;
+  font-weight: 600;
+}
+
+.blog .title h2 {
+  text-align: center;
+  font-family: "Source Sans 3", sans-serif;
+  font-size: 40px;
+  font-weight: 800;
+  padding: 10px 0 10px;
+  color: #333333;
+  position: relative;
+}
+
+.blog .title h2::after {
+  content: "";
+  border-color: #ff305b;
+  border-style: solid;
+  border-width: 1px 0;
+  bottom: 0;
+  padding: 4px 0 5px;
+  width: 70px;
+  left: 0;
+  margin: 0 auto;
+  position: absolute;
+  right: 0;
+}
+
+.blog .title h2::before {
+  content: "";
+  background-color: #ff305b;
+  bottom: 5px;
+  height: 1px;
+  width: 160px;
+  left: 0;
+  margin: 0 auto;
+  position: absolute;
+  right: 0;
+}
+/* </blog> */
+
+/* <contact> */
+.contact {
+  margin: 50px auto;
+}
+
+.contact .title h2 {
+  text-align: center;
+  font-family: "Source Sans 3", sans-serif;
+  font-size: 40px;
+  font-weight: 800;
+  padding: 50px 0 10px;
+  color: #333333;
+  position: relative;
+}
+
+.contact .title h2::after {
+  content: "";
+  border-color: #ff305b;
+  border-style: solid;
+  border-width: 1px 0;
+  bottom: 0;
+  padding: 4px 0 5px;
+  width: 70px;
+  left: 0;
+  margin: 0 auto;
+  position: absolute;
+  right: 0;
+}
+
+.contact .title h2::before {
+  content: "";
+  background-color: #ff305b;
+  bottom: 5px;
+  height: 1px;
+  width: 160px;
+  left: 0;
+  margin: 0 auto;
+  position: absolute;
+  right: 0;
+}
+
+.contact .information input,
+textarea {
+  float: left;
+  width: 50%;
+  padding: 10px 10px;
+  margin: 10px 25%;
+  border: 1px solid #ccc;
+  font-family: "Roboto";
+}
+
+.contact button {
+  margin: 10px 25%;
+  background-color: #ff305b;
+  color: white;
+  border-radius: 4px;
+  display: inline-block;
+  padding: 12px 12px;
+  font-size: 14;
+  border: none;
+  font-weight: 400;
+  transition: all 0.5s;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: #ec2403;
+}
+
+.contact a {
+  color: white;
+  font-family: "Roboto";
+}
+/* </contact> */
+
+/* <social> */
+.social {
+  background-color: #333333;
+  margin: 50px 0 0;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.social .list ul li {
+  color: white;
+  display: inline-block;
+  padding: 10px;
+  list-style-type: none;
+  text-align: center;
+  transition: color 0.5s;
+}
+
+.social .list ul li:hover{
+  color: #ff305b;
+}
+
+.social p {
+  color: white;
+  text-align: center;
+  padding: 10 0 30px 0;
+  font-family: "Roboto";
+}
+
+
+.social a{
+  color: #ff305b;
+}
+/* </social> */
